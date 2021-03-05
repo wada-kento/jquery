@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jqueryチュートリアル</title>
+</head>
+
+<body>
+    <h1 id="title">jqueryチュートリアル</h1>
+    <div>
+        <h1>名前を入力してください</h1>
+        <form id="nameForm">
+            <input type="text" id="name">
+            <input type="submit" value="送信">
+        </form>
+    </div>
+    <div>
+        <h1>メッセージを入力してください</h1>
+        <form id="messageForm">
+            <input type="text" id="messageInput">
+            <input type="submit" value="送信">
+        </form>
+        <ul id="messageList"></ul>
+    </div>
+    <div>
+        <h1>ボタンクリックで挨拶してください</h1>
+        <h2 id="greetingText">こんにちは</h2>
+        <h2 id="greetingLine" class="big-text">おっすおら悟空</h2>
+        <button id="greetingButton">挨拶</button>
+    </div>
+    <div>色を切り替えてください</div>
+    <p id="colorChange">文字の色が変わるよ</p>
+    <button class="" id="colorChangeButton">黒　- 赤</button>
+    <div>
+        <h1>文字を移動させてください</h1>
+        <p id="moveText" class="move-text">移動するよ</p>
+        <button id="left">←</button>
+        <button id="right">→</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="script.js "></script>
+</body>
+
+</html>
